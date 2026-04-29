@@ -6,6 +6,9 @@ public class Calculadora {
 
 
         System.out.println("Resta: " + rest.restar(10, 5));
+
+        Multiplicacion mult = new Multiplicacion();
+        System.out.println("Multiplicación: " + mult.multiplicar(10, 5));
     }
 
     }
